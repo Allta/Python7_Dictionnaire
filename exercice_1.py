@@ -1,8 +1,5 @@
-# Créer un objet de type chaîne de caractères
-chaine = 
-# Créer un objet de type nombre entier
-nombre_entier = 
-# Créer objet de type nombre décimal
-nombre_decimal = 
-# Créer un objet de type booléen
-boolean = 
+employes = {
+            "id01": {"prenom": "Paul", "nom": "Dupont", "age": 32},
+            "id02": {"prenom": "Julie", "nom": "Dupuit", "age": 25},
+            "id03": {"prenom": "Patrick", "nom": "Ferrand", "age": 36}
+           }

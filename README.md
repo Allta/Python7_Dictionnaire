@@ -22,4 +22,8 @@ Dans cet exerice il faut modifier le dictionaire présent dans le fichier exeric
   
 
  
-## Exercice 2 : 
+## Exercice 2 : Dict parsing
+
+- Calculer la moyenne d'age des employées de la societée
+- Trouver qui est l'employé le plus agé
+- Vérifier que Patrick ne fait plus partie de l'entreprise

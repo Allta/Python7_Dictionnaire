@@ -1,4 +1,5 @@
-print('Bonjour tout le monde !")
-print('Je m'appelle Patrick.')
-print("Je dis souvent "la vie est un long fleuve tranquille" quand on s'appelle Patrick.")
-print(Oui, je suis très philosophe.)
+employes = {
+            "id01": {"prenom": "Paul", "nom": "Dupont", "age": 32},
+            "id02": {"prenom": "Julie", "nom": "Dupuit", "age": 25},
+            "id03": {"prenom": "Patrick", "nom": "Ferrand", "age": 36}
+           }

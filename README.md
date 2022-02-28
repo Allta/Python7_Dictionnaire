@@ -8,9 +8,30 @@
 
 :raising_hand: Si vous avez des soucis n'hésitez pas à m'appeler. 
  
- ## Exercice 1: Dictionnaire
+ ## Exercice 1 : Simple Dictionary 
  
-Dans cet exerice il faut modifier le dictionaire présent dans le fichier exerice1.py selon les affirmations suivantes : 
+ Dans un programme python créer un dictionnaire concernant les différents modèles de voiture suivant : 
+ 
+ ```python
+ 
+ cars = {
+  "marque": "Ford",
+  "modele": "Mustang",
+  "annee": 1964
+}
+
+```
+Avec ce dictionnaire il faudra : 
+
+- Afficher l'année de création de la voiture
+- Rajouter un attribut à la voiture : 
+  - `"couleur" : "rouge"`
+- Vérifier que la voiture soit bien **rouge** 
+-
+ 
+ ## Exercice 2: Nested Dictionary
+ 
+Dans cet exerice il faut modifier le dictionaire présent dans le fichier exerice2.py selon les affirmations suivantes : 
 - Patrick a quitté l'entreprise cette année, nous devons donc l'enlever du dictionnaire.
 - Julie a fêté son anniversaire hier, il faut donc changer son âge (elle a maintenant 26 ans).
 - Paul quant à lui fêtera son anniversaire la semaine prochaine. Nous voulons donc récupérer son âge pour savoir quel âge il aura.
@@ -22,7 +43,7 @@ Dans cet exerice il faut modifier le dictionaire présent dans le fichier exeric
   
 
  
-## Exercice 2 : Dict parsing
+## Exercice 3 : Dict parsing
 
 - Calculer la moyenne d'age des employées de la societée
 - Trouver qui est l'employé le plus agé

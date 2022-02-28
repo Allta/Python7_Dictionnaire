@@ -27,7 +27,9 @@ Avec ce dictionnaire il faudra :
 - Rajouter un attribut à la voiture : 
   - `"couleur" : "rouge"`
 - Vérifier que la voiture soit bien **rouge** 
--
+- Afficher à l'aide d'une boucle toutes les caractéristiques de la voiture
+- Modifier la couleur en `bleu`
+- Supprimer la clef `couleur`
  
  ## Exercice 2: Nested Dictionary
  

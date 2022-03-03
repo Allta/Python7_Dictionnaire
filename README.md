@@ -89,3 +89,18 @@ A l'aide d'une méthode qui permet de **lire** les fichiers **csv** de la librai
 
 Il y a beaucoup de colonnes dans ce Dataset, et nous souhaitons uniquement réaliser une analyse sur la durée des films. 
 
+Il faut donc filtrer les colonnes : 
+
+- Récupérer uniquement les rangs dont le type est **Movie**
+- Sur ces rangs la récupérer uniquement les colonnes :
+  - 'title'
+  - 'country'
+  - 'genre' 
+  - 'release_year'
+  - 'duration' 
+
+
+Créer un nuage de type **nuage de point** (scatter en anglais). 
+De la même façon que pour le premier graphique, donner en argument l'axe X (Date de sortie du film) et l'axe Y(Durée du film)
+
+

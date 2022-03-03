@@ -1,14 +1,10 @@
 # TP Dictionnaire - Ynov Python B1
 
-:see_no_evil: _**Il s'agit d'un travail autonomne.**_ :speak_no_evil:
-
-:sparkles: Une fois le TP et le rendu terminé commitez et pushez le dans le repo. :sparkles:
-  
 ### Tips   
 
 :raising_hand: Si vous avez des soucis n'hésitez pas à m'appeler. 
  
- ## Exercice 1 : Simple Dictionary 
+## Exercice 1 : Simple Dictionary 
  
  Dans un programme python créer un dictionnaire concernant les différents modèles de voiture suivant : 
  
@@ -31,7 +27,7 @@ Avec ce dictionnaire il faudra :
 - Modifier la couleur en `bleu`
 - Supprimer la clef `couleur`
  
- ## Exercice 2: Nested Dictionary
+## Exercice 2: Nested Dictionary
  
 Dans cet exerice il faut modifier le dictionaire présent dans le fichier exerice2.py selon les affirmations suivantes : 
 - Patrick a quitté l'entreprise cette année, nous devons donc l'enlever du dictionnaire.
@@ -51,7 +47,7 @@ Dans cet exerice il faut modifier le dictionaire présent dans le fichier exeric
 - Trouver qui est l'employé le plus agé
 - Vérifier que Patrick ne fait plus partie de l'entreprise
 
-# Exerice 4 : Pandas Dictionnary - Analyse des durées de film Netflix
+## Exerice 4 : Pandas Dictionnary - Analyse des durées de film Netflix
 
 Dans cet exercice il va falloir utiliser les dictionnaires ainsi que la librairie `pandas`.
 Nous allons manipuler les données pour pouvoir les analyser par la suite. 
@@ -83,3 +79,13 @@ A partir de ce **dataset** il faut :
   Il suffit d'appeler la méthode `pyplot.plot([], [])` pour créer un graphique en lui donnant comme argument 2 listes (Ou dans notre cas un Dataframe)
   
   
+## Exercice 5 : Analyse poussée d'un Dataset
+
+Maintenant que nous avons eu un aperçu de ce que nous pouvons faire à l'aide de Python, nous allons charger le dataset complet. 
+
+A l'aide d'une méthode qui permet de **lire** les fichiers **csv** de la librairie **pandas** : 
+  - Charger le fichier `netflix_data.csv`
+  - Afficher les 5 premiers rangs
+
+Il y a beaucoup de colonnes dans ce Dataset, et nous souhaitons uniquement réaliser une analyse sur la durée des films. 
+

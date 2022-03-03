@@ -50,3 +50,36 @@ Dans cet exerice il faut modifier le dictionaire présent dans le fichier exeric
 - Calculer la moyenne d'age des employées de la societée
 - Trouver qui est l'employé le plus agé
 - Vérifier que Patrick ne fait plus partie de l'entreprise
+
+# Exerice 4 : Pandas Dictionnary - Analyse des durées de film Netflix
+
+Dans cet exercice il va falloir utiliser les dictionnaires ainsi que la librairie `pandas`.
+Nous allons manipuler les données pour pouvoir les analyser par la suite. 
+Pour le moment nous partons d'un jeu de données que nous allons créer nous même pour faciliter le travail.
+
+Pour commencer il faut créer un set de données.
+
+```
+years = [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]
+durations = [103, 101, 99, 100, 100, 95, 95, 96, 93, 90]
+```
+
+A partir de ce **dataset** il faut : 
+
+- Créer un dictionnaire
+  - Clef : years , durations
+  - Valeurs : [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020] , [103, 101, 99, 100, 100, 95, 95, 96, 93, 90]
+
+- Transformer ce dictionnaire en **dataframe**
+  - `import pandas as pd`
+  - `durations_df = pd.DataFrame(my_dict)`
+
+- Créer une représentation graphique de votre Dataframe
+  - `import matplotlib.pyplot as plt`
+
+**Astuce** : 
+  http://www.python-simple.com/python-matplotlib/pyplot.php 
+  La librairie `matplot` est la libraire la plus utilisé pour la création de graphique et autre outils de visualisation.
+  Il suffit d'appeler la méthode `pyplot.plot([], [])` pour créer un graphique en lui donnant comme argument 2 listes (Ou dans notre cas un Dataframe)
+  
+  
